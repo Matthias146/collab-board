@@ -42,7 +42,4 @@ export class AuthService {
     const provider = new GoogleAuthProvider();
     return signInWithPopup(this.auth, provider);
   }
-
-  // Optional: weitere Provider
-  // loginWithGithub() { ... }
 }
